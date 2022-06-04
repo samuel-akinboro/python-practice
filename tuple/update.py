@@ -7,3 +7,9 @@ y[0] = "math set"
 x = tuple(y)
 
 print(x)
+
+# you can also add tuple to tuple
+a = ("book",)
+b = ("pencil",)
+a += b
+print(a)
